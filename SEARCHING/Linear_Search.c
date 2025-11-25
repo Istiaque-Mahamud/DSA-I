@@ -15,7 +15,7 @@ int main(){
     for(int i=0;i<size;i++){
         if(arr[i]==SearchItem){
             printf("Item found at index: %d\n",i);
-            //return 0;
+            return 0;
         }
     }
     printf("Item not found\n");
