@@ -9,7 +9,7 @@ int main()
     for(int i=0;i<num;i++){
         scanf("%d",&arr[i]);
     }
-    
+
     int n= sizeof(arr)/sizeof(arr[0]);
     int swap =0,counter=0;
     for(int i=0;i<n;i++){
@@ -23,6 +23,7 @@ int main()
                 swap=1;
             }
         }
+        //Time Complixity
         if(swap==0){
             break;
         }
@@ -32,6 +33,6 @@ int main()
         printf("%d ",arr[i]);
     }
     printf("\nTotal loop:%d",counter);
-    
+    printf("\n");
     return 0;
 }
